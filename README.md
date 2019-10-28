@@ -7,4 +7,4 @@ It tries to serve the descendants of:
 2) His sister-in-law and mother-in-law of 2 of his sons, [Sarah (Lugg)!](https://www.wikitree.com/wiki/Lugg-131) Clinch Blackwell Campbell of Gloucestershire & PA; or of
 3) Sarah's brother, [Charles Byron Lugg!](https://www.wikitree.com/wiki/Lugg-47); or of Sarah's 2nd husband
 4) [Enoch Blackwell!](https://www.wikitree.com/wiki/Blackwell-2601) of Gloucestershire and PA.
-The site is full of photo albums, letters, maps, reunion minutes and info about the area's history, relatives' burial locations, and info about the next Campbell Reunion. 
+The site is full of photos, letters, maps, reunion minutes back to 1893, info about the area's history, relatives' burial locations, and info about the next Campbell Reunion. 
