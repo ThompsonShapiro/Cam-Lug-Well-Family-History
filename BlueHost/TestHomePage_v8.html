@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Test - HomePage v8</title>
+    <link href="https://fonts.googleapis.com/css2?family=Simonetta&amp;display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+      * {
+        box-sizing: border-box
+      }
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0
+      }
+      .mySlides {
+        display: none
+      }
+      img {
+        vertical-align: middle;
+      }
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      /* Caption text */
+      .text {
+        color: #ffffff;
+        font-size: 25%;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      /* Caption text large */
+      .text2 {
+        color: #ffffff;
+        font-size: 50%;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #ffffff;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #999999;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      .active,
+      .dot:hover {
+        background-color: #111111;
+      }
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 3.0s;
+        animation-name: fade;
+        animation-duration: 3.s;
+      }
+      @-webkit-keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      @keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev,
+        .next,
+        .text {
+          font-size: 12%
+        }
+        .text2 {
+          font-size: 25%
+        }
+      }
+    </style>
+  </head>
+  <body>
+  <!-- Based on https://www.w3docs.com/snippets/css/how-to-create-an-image-slider-or-slideshow.html -->
+    <div class="w3-cell-row w3-orange w3-center">
+      <p style="font-family: 'Simonetta', cursive;font-size:150%;">Test -- CAMPBELLs,
+      <body>    LUGGs, &amp; BLACKWELLs of Nelson, PA</p>
+    </div>
+    <div class="w3-cell-row">
+      <div class="w3-cell w3-blue" style="width:15%">
+	        <div>Menu:</div>
+	        <div>
+	          <p><a href="blog.campbellluggblackwell.com" class="w3-btn w3-black">Blog</a></p>
+	        </div>
+	        <div>
+	          <p><a href="https://www.facebook.com/groups/CambLuggBlkwNelsonPA" class="w3-btn w3-black">FB
+	              Group</a></p>
+	        </div>
+	        <div>
+	          <p><a href="https://sites.rootsweb.com/%7Ecapane/" class="w3-btn w3-black">Family
+	              History</a></p>
+	        </div>
+	        <div>
+	          <p><a href="TestWikiTree_v1" class="w3-btn w3-black">WikiTree</a></p>
+	        </div>
+	        <div>
+	           <p><a href="https://www.youtube.com/channel/UC8qACUxzq1uBy8oA_DbHtmQ?view_as=subscriber"	
+	            class="w3-btn w3-black">YouTube</a></p>
+	            </div>
+	        <div>About Us</div>
+	        <div>Contact Us</div>
+      </div>
+		<div class="w3content" style="margin-left:15%"> 
+		    <div class="slideshow-container">
+			      <div class="mySlides fade"> 
+			          <div class="numbertext">1 / 3</div> 
+			          <img src="BlackwellHotel.jpg" style="width:100%">
+			          <div class="text2">Blackwell Hotel, Blackwell, PA</div>
+			      </div>
+			 </div>     
+		    <div class="slideshow-container">
+			      <div class="mySlides fade">
+			          <div class="numbertext">2 / 3</div> 
+			          <img src="ClanCampbellTartan.jpg" style="width:100%">    
+			          <div class="text2">Clan Campbell tartan, aka Black Watch plaid</div> 
+			      </div>
+			 </div>      
+		    <div class="slideshow-container">
+			      <div class="mySlides fade">
+			          <div class="numbertext">3 / 3</div>
+			          <img src="NelsonDepot.jpg" style="width:100%"> 
+			          <div class="text2">RR Depot, Nelson, PA</div>
+			      </div>
+		    </div>
+		</div>
+    </div>
+    <div class="w3-cell-row w3-green">
+         <p style="font-style:italic; font-size:80%">Copyright © 2021 William B.
+             Thompson </p>
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for(i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if(slideIndex > slides.length) {
+          slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script>
+  </body>
+</html>
